@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "npm run vercel-build",
-    "vercel-build": "prisma generate && prisma migrate deploy && prisma db seed && next build",
+    "vercel-build": "vercel-build": "prisma generate && prisma db push && prisma db seed && next build",
     "start": "next start"
   },
   "dependencies": {
